@@ -1,56 +1,64 @@
-#include <stdio.h>
-int max_of_four(int a, int b, int c, int d)
-{
-    if (a > b)
-    {
-        if (a > c)
-        {
-            if (a > d)
-            {
-                return a;
-            }
-        }
-    }
-    if (b > c)
-    {
-        if (b > a)
-        { 
-            if (b > d)
-            {
-                return b;
-            }
-        }
-    }
-    if (c > a)
-    {
-        if (c > b)
-        {
-            if (c > d)
-            {
-                return c;
-            }
-        }
-    }
 
-    if (d > a)
-    {
-        if (d > b)
-        {
-            if (d > c)
-            {
-                return d;
-            }
-        }
-    }
-}
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
 int main()
 {
-    int a, b, c, d;
-    printf("Enter the numbers -->\n");
-    scanf("%d %d %d %d", &a, &b, &c, &d);
-    int ans = max_of_four(a, b, c, d);
-    
-    printf("The largest number is --> %d", ans);
+    int a, b;
+    scanf("%d\n%d", &a, &b);
+
+    for (int n = a; n <= b; n++)
+    {
+        if (n == 1)
+        {
+            printf("one\n");
+        }
+        if (n == 2)
+        {
+            printf("two\n");
+        }
+        if (n == 3)
+        {
+            printf("three\n");
+        }
+        if (n == 4)
+        {
+            printf("four\n");
+        }
+        if (n == 5)
+        {
+            printf("five\n");
+        }
+        if (n == 6)
+        {
+            printf("six\n");
+        }
+        if (n == 7)
+        {
+            printf("seven\n");
+        }
+        if (n == 8)
+        {
+            printf("eight\n");
+        }
+        if (n == 9)
+        {
+            printf("nine\n");
+        }
+        if (n > 9)
+        {
+            if (n % 2 == 0)
+            {
+                printf("even\n");
+            }
+            if (n % 2 != 0)
+            {
+                printf("odd\n");
+            }
+        }
+    }
 
     return 0;
 }

@@ -1,1 +1,2 @@
-a++;
+ter the string -->\n");
+    gets(arr);

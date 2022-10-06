@@ -1,0 +1,4 @@
+1)printf,datatypes,compiletime,scanf,runtime,arithmatic->(addition,division,square root).
+2)area of the rectangle , area of the circle , volume of cylinder,simple intrest.
+3)separating of the ruppes and paise.
+4)swapping of the numbers->(with third integer,addition and substraction,multiplication and division).
